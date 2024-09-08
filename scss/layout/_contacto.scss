@@ -1,0 +1,35 @@
+/* Contacto */
+.contactoMain{
+    margin-bottom: 10px;
+    background-color: $colorSecundario;
+    display: flex;
+    flex-direction: column;
+    font-family: $fontPrincipal;
+    padding-top: 70px;
+    font-size: 20px;
+    border-radius: 20px;
+    @include movil-l{
+        margin-top: 40px;
+    }
+    label{
+        padding-top: 9px;
+    }
+}
+.preguntasFrecuentes{
+    font-family: $fontSecundario;
+    h1{
+        font-style: italic;
+        color: $colorCuarto;
+        text-wrap: balance;
+    }
+    h2{
+        text-wrap: balance;
+        color: $colorTerciario;
+        font-size: 30px;
+        font-style: oblique;
+        text-decoration: underline;
+    }
+    h3{
+        font-size: 20px;
+    }
+}

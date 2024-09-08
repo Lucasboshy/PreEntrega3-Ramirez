@@ -1,0 +1,54 @@
+/* Blog */
+.blog{
+    text-align: center;
+    text-wrap: balance;
+    font-size: 20px;
+    background-color: $colorSecundario;
+    font-family: $fontPrincipal;
+    margin-top: 16px;
+    @include tableta{
+        margin-top: 55px;
+    }
+    img{
+        width: 500px;
+        border-radius: 20px;
+        @include movil-l{
+            width: 320px;
+        }
+    }
+    h1{
+        background-color: $tituloEstrella;
+    }
+    h2{
+        color: $colorTerciario;
+        display: block;
+        background-color: $colorCuarto;
+    }
+    p{
+        color: $colorQuinto;
+    }
+}
+
+.maquillajeTutorial{
+    font-family: $fontPrincipal;
+    text-align: center;
+    h2{
+        background-color: $colorSecundario;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    ol{
+        @extend h2
+    }
+    li{
+        list-style-position: inside;
+        font-size: 20px;
+    }
+    ul{
+        margin: 20px;
+        font-size: 20px;
+        color: $colorTerciario;
+        background-color: #545454;
+        border-radius: 20px;
+    }
+}

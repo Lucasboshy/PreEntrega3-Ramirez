@@ -1,0 +1,50 @@
+//Header y Footer
+/* Header */
+header{
+    nav{
+        background: linear-gradient(0deg, rgba(231,224,224,1) 0%, rgba(159,159,159,1) 100%);
+        font-family: $fontSecundario;
+    }
+    .top{
+        img{
+            height: 50px;
+        };
+    }
+    .btn{
+        color: $colorTerciario;
+    }
+}
+/* Footer */
+footer{
+    background: linear-gradient(0deg, rgba(190,184,184,1) 0%, rgba(94,94,94,1) 100%);
+    iframe{
+        @include portatil{
+            width: 200px;
+        }
+    }
+    img{
+        width: 3vw;
+        margin: 2px;
+        @include portatil{
+            width: 40px;
+        }
+    }
+    h2{
+        color: $colorCuarto;
+    }
+    p{
+        color: $colorCuarto;
+    }
+    .soporte{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        a{
+            text-decoration: none;
+            color: $colorCuarto;
+            &:hover{
+                color: $colorTerciario;
+            }
+        }
+    }
+}

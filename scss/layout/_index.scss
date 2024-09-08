@@ -1,0 +1,146 @@
+/* Index */
+    .textoDestacado{
+        h1{
+            text-align: center;
+            background-color: #ffffff;
+            font-family: $fontPrincipal;
+            font-style: italic;
+            text-shadow: 2px 2px #858585;
+            padding-top: 70px;
+            @include movil-l{
+                margin-top: 35px;
+            }
+        }
+    }
+    .titleProductos{
+        text-align:center;
+        text-decoration:double;
+        margin-top: 30px;
+        padding: 20px;
+        h2{
+            background-color: $tituloHombres;
+            padding: 20px;
+            font-size:40px;
+        }
+        h3{
+            background-color: $tituloMujeres;
+            padding: 20px;
+            font-size:40px;
+        }
+        h4{
+            background-color: $tituloEstrella;
+            padding: 20px;
+            font-size:40px;
+        }
+    }
+    .card{
+        background-color: $colorQuinto;
+        display: flex;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        &:hover{
+            box-shadow:  rgba(159, 160, 161, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        }
+    }
+    .productos{
+        font-family: $fontPrincipal;
+        text-align: center;
+        img{
+            width: 170px;
+            height: 170px;
+            transition: width 1s, height 1s;
+            &:hover{
+                width: 190px;
+                height: 190px;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            background-color: $colorPrincipal;
+            padding: 5px;
+            border-radius: 5px;
+            transition: font-size 0.5s, padding 0.5s, border-radius 0.5s, color 1s;
+            &:hover{
+                font-size: large;
+                padding: 8px;
+                border-radius: 10px;
+                color: green;
+            }
+        }
+        h3{
+            text-wrap: balance;
+            text-shadow: 1px 2px 3px rgb(129, 127, 127);
+        }
+    }
+    .card{
+        background-color: $colorQuinto;
+        display: flex;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        &:hover{
+            box-shadow:  rgba(159, 160, 161, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        }
+    }
+    .cardPrecio{
+        p{
+            text-decoration: line-through;
+            opacity: 0.4;
+        }
+        h4{
+            color: green;
+            text-shadow: #FC0 1px 0 10px;
+        }
+    }
+    .cardPago{
+        width: 300px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        background-color: #8e8e8e;
+        margin-bottom: 5px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        img{
+            width: 100px;
+        }
+        a{
+            text-decoration: none;
+            color: $colorQuinto;
+            background-color: $colorCuarto;
+            border: 5px;
+            border-style: solid;
+            border-color: $colorCuarto;
+            border-radius: 5px;
+            &:hover{
+                background-color: $colorSexto;
+                border-color: $colorSexto;
+            }
+        }
+    }
+    .metodosPago{
+        div{
+            margin: 20px 0 20px 0;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+.asociados{
+    background: linear-gradient(90deg, rgba(203,191,151,1) 0%, rgba(218,212,180,1) 59%, rgba(223,210,128,1) 85%);
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-decoration: underline;
+    text-shadow: 3px 1px#ebebeb;
+    img{
+        width: 160px;
+        border-radius: 100px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+}
+.marcas{
+    justify-content: center;
+    padding: 20px;
+}

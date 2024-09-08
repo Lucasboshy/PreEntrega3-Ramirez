@@ -1,0 +1,390 @@
+/* CSS Reset */
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header nav {
+  background: linear-gradient(0deg, rgb(231, 224, 224) 0%, rgb(159, 159, 159) 100%);
+  font-family: Oswald;
+}
+header .top img {
+  height: 50px;
+}
+header .btn {
+  color: #ffffff;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(0deg, rgb(190, 184, 184) 0%, rgb(94, 94, 94) 100%);
+}
+@media screen and (max-width: 1025px) {
+  footer iframe {
+    width: 200px;
+  }
+}
+footer img {
+  width: 3vw;
+  margin: 2px;
+}
+@media screen and (max-width: 1025px) {
+  footer img {
+    width: 40px;
+  }
+}
+footer h2, footer .maquillajeTutorial ol, .maquillajeTutorial footer ol {
+  color: #303030;
+}
+footer p {
+  color: #303030;
+}
+footer .soporte {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+footer .soporte a {
+  text-decoration: none;
+  color: #303030;
+}
+footer .soporte a:hover {
+  color: #ffffff;
+}
+
+/* Index */
+.textoDestacado h1, .textoDestacado .sectionNosotros h2, .textoDestacado .sectionNosotros .maquillajeTutorial ol, .maquillajeTutorial .textoDestacado .sectionNosotros ol, .sectionNosotros .textoDestacado h2, .sectionNosotros .textoDestacado .maquillajeTutorial ol, .maquillajeTutorial .sectionNosotros .textoDestacado ol {
+  text-align: center;
+  background-color: #ffffff;
+  font-family: Jost;
+  font-style: italic;
+  text-shadow: 2px 2px #858585;
+  padding-top: 70px;
+}
+@media screen and (max-width: 426px) {
+  .textoDestacado h1, .textoDestacado .sectionNosotros h2, .textoDestacado .sectionNosotros .maquillajeTutorial ol, .maquillajeTutorial .textoDestacado .sectionNosotros ol, .sectionNosotros .textoDestacado h2, .sectionNosotros .textoDestacado .maquillajeTutorial ol, .maquillajeTutorial .sectionNosotros .textoDestacado ol {
+    margin-top: 35px;
+  }
+}
+
+.titleProductos {
+  text-align: center;
+  text-decoration: double;
+  margin-top: 30px;
+  padding: 20px;
+}
+.titleProductos h2, .titleProductos .maquillajeTutorial ol, .maquillajeTutorial .titleProductos ol {
+  background-color: #65afaa;
+  padding: 20px;
+  font-size: 40px;
+}
+.titleProductos h3 {
+  background-color: #9f65af;
+  padding: 20px;
+  font-size: 40px;
+}
+.titleProductos h4 {
+  background-color: #FC0;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.card {
+  background-color: #dbd8d8;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.card:hover {
+  box-shadow: rgba(159, 160, 161, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.productos {
+  font-family: Jost;
+  text-align: center;
+}
+.productos img {
+  width: 170px;
+  height: 170px;
+  transition: width 1s, height 1s;
+}
+.productos img:hover {
+  width: 190px;
+  height: 190px;
+}
+.productos a {
+  text-decoration: none;
+  color: black;
+  background-color: #b7b7b7;
+  padding: 5px;
+  border-radius: 5px;
+  transition: font-size 0.5s, padding 0.5s, border-radius 0.5s, color 1s;
+}
+.productos a:hover {
+  font-size: large;
+  padding: 8px;
+  border-radius: 10px;
+  color: green;
+}
+.productos h3 {
+  text-wrap: balance;
+  text-shadow: 1px 2px 3px rgb(129, 127, 127);
+}
+
+.card {
+  background-color: #dbd8d8;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.card:hover {
+  box-shadow: rgba(159, 160, 161, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.cardPrecio p {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+.cardPrecio h4 {
+  color: green;
+  text-shadow: #FC0 1px 0 10px;
+}
+
+.cardPago {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #8e8e8e;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.cardPago img {
+  width: 100px;
+}
+.cardPago a {
+  text-decoration: none;
+  color: #dbd8d8;
+  background-color: #303030;
+  border: 5px;
+  border-style: solid;
+  border-color: #303030;
+  border-radius: 5px;
+}
+.cardPago a:hover {
+  background-color: #545454;
+  border-color: #545454;
+}
+
+.metodosPago div {
+  margin: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.asociados {
+  background: linear-gradient(90deg, rgb(203, 191, 151) 0%, rgb(218, 212, 180) 59%, rgb(223, 210, 128) 85%);
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 20px;
+  text-decoration: underline;
+  text-shadow: 3px 1px #ebebeb;
+}
+.asociados img {
+  width: 160px;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.marcas {
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Contacto */
+.contactoMain {
+  margin-bottom: 10px;
+  background-color: #858585;
+  display: flex;
+  flex-direction: column;
+  font-family: Jost;
+  padding-top: 70px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 426px) {
+  .contactoMain {
+    margin-top: 40px;
+  }
+}
+.contactoMain label {
+  padding-top: 9px;
+}
+
+.preguntasFrecuentes {
+  font-family: Oswald;
+}
+.preguntasFrecuentes h1, .preguntasFrecuentes .sectionNosotros h2, .preguntasFrecuentes .sectionNosotros .maquillajeTutorial ol, .maquillajeTutorial .preguntasFrecuentes .sectionNosotros ol, .sectionNosotros .preguntasFrecuentes h2, .sectionNosotros .preguntasFrecuentes .maquillajeTutorial ol, .maquillajeTutorial .sectionNosotros .preguntasFrecuentes ol {
+  font-style: italic;
+  color: #303030;
+  text-wrap: balance;
+}
+.preguntasFrecuentes h2, .preguntasFrecuentes .maquillajeTutorial ol, .maquillajeTutorial .preguntasFrecuentes ol {
+  text-wrap: balance;
+  color: #ffffff;
+  font-size: 30px;
+  font-style: oblique;
+  text-decoration: underline;
+}
+.preguntasFrecuentes h3 {
+  font-size: 20px;
+}
+
+/* Nosotros */
+.sectionNosotros h1, .sectionNosotros h2, .sectionNosotros .maquillajeTutorial ol, .maquillajeTutorial .sectionNosotros ol {
+  color: #ffffff;
+  border: 40px;
+  border-style: solid;
+  border-color: #303030;
+  text-align: center;
+  background-color: #303030;
+  margin-bottom: 20px;
+  margin-top: 90px;
+  font-family: Jost;
+}
+.sectionNosotros p {
+  font-size: 25px;
+  text-align: center;
+  font-family: Jost;
+}
+.sectionNosotros img {
+  margin: 20px;
+  border-radius: 900px;
+}
+
+/* Blog */
+.blog {
+  text-align: center;
+  text-wrap: balance;
+  font-size: 20px;
+  background-color: #858585;
+  font-family: Jost;
+  margin-top: 16px;
+}
+@media screen and (max-width: 768px) {
+  .blog {
+    margin-top: 55px;
+  }
+}
+.blog img {
+  width: 500px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 426px) {
+  .blog img {
+    width: 320px;
+  }
+}
+.blog h1, .blog .sectionNosotros h2, .blog .sectionNosotros .maquillajeTutorial ol, .maquillajeTutorial .blog .sectionNosotros ol, .sectionNosotros .blog h2, .sectionNosotros .blog .maquillajeTutorial ol, .maquillajeTutorial .sectionNosotros .blog ol {
+  background-color: #FC0;
+}
+.blog h2, .blog .maquillajeTutorial ol, .maquillajeTutorial .blog ol {
+  color: #ffffff;
+  display: block;
+  background-color: #303030;
+}
+.blog p {
+  color: #dbd8d8;
+}
+
+.maquillajeTutorial {
+  font-family: Jost;
+  text-align: center;
+}
+.maquillajeTutorial h2, .maquillajeTutorial ol {
+  background-color: #858585;
+  border-radius: 20px;
+  padding: 20px;
+}
+.maquillajeTutorial li {
+  list-style-position: inside;
+  font-size: 20px;
+}
+.maquillajeTutorial ul {
+  margin: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #545454;
+  border-radius: 20px;
+}
+
+/* Catalogo */
+.catalogo {
+  font-family: Jost;
+  text-align: center;
+  margin-top: 50px;
+}
+.catalogo h1, .catalogo .sectionNosotros h2, .sectionNosotros .catalogo h2, .catalogo .sectionNosotros .maquillajeTutorial ol, .sectionNosotros .maquillajeTutorial .catalogo ol, .catalogo .maquillajeTutorial .sectionNosotros ol, .maquillajeTutorial .sectionNosotros .catalogo ol {
+  margin-top: 20px;
+  border-radius: 2px;
+  border: 2px;
+  background-color: #65afaa;
+  border-radius: 3px;
+}
+@media screen and (max-width: 426px) {
+  .catalogo h1, .catalogo .sectionNosotros h2, .sectionNosotros .catalogo h2, .catalogo .sectionNosotros .maquillajeTutorial ol, .sectionNosotros .maquillajeTutorial .catalogo ol, .catalogo .maquillajeTutorial .sectionNosotros ol, .maquillajeTutorial .sectionNosotros .catalogo ol {
+    margin-top: 70px;
+  }
+}
+.catalogo h2, .catalogo .maquillajeTutorial ol, .maquillajeTutorial .catalogo ol {
+  background-color: #9f65af;
+}
+.catalogo h3 {
+  text-wrap: balance;
+  text-shadow: 1px 2px 3px rgb(129, 127, 127);
+}
+.catalogo p {
+  font-size: 20px;
+}
+.catalogo img {
+  width: 190px;
+  height: 190px;
+  transition: width 1s, height 1s;
+}
+.catalogo img:hover {
+  width: 200px;
+  height: 200px;
+}
+
+.catalogoMujeres {
+  margin: 20px 20px;
+  border: 2px;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+  border-radius: 4px;
+  text-align: center;
+}
+.catalogoMujeres h1, .catalogoMujeres .sectionNosotros h2, .sectionNosotros .catalogoMujeres h2, .catalogoMujeres .sectionNosotros .maquillajeTutorial ol, .sectionNosotros .maquillajeTutorial .catalogoMujeres ol, .catalogoMujeres .maquillajeTutorial .sectionNosotros ol, .maquillajeTutorial .sectionNosotros .catalogoMujeres ol {
+  background-color: #65afaa;
+}
+.catalogoMujeres p {
+  font-size: 20px;
+  text-wrap: balance;
+}
+.catalogoMujeres img {
+  margin: 20px;
+  width: 190px;
+  height: 190px;
+  border-style: groove;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,30 @@
+//Medias
+@mixin portatil{
+    @media screen and (max-width:1025px){
+        @content;
+    }
+}
+
+@mixin tableta{
+    @media screen and (max-width:768px){
+        @content;
+    }
+}
+
+@mixin movil-l{
+    @media screen and (max-width:426px){
+        @content;
+    }
+}
+
+@mixin movil-m{
+    @media screen and (max-width:376px){
+        @content;
+    }
+}
+
+@mixin movil-s{
+    @media screen and (max-width:320px){
+        @content;
+    }
+}
